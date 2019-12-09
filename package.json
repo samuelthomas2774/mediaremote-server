@@ -1,0 +1,27 @@
+{
+    "name": "mediaremote-server",
+    "version": "0.1.0",
+    "description": "",
+    "main": "dist/index.js",
+    "dependencies": {
+        "camelcase": "^5.3.1",
+        "curve25519-n": "^1.5.0",
+        "fast-srp-hap": "^1.0.1",
+        "mdns": "^2.5.1",
+        "protobufjs": "^6.8.8",
+        "snake-case": "^3.0.2",
+        "tweetnacl": "^1.0.1",
+        "varint": "^5.0.0"
+    },
+    "devDependencies": {
+        "@types/ed25519": "0.0.0",
+        "@types/mdns": "0.0.33",
+        "@types/protobufjs": "^6.0.0",
+        "@types/varint": "^5.0.0",
+        "typescript": "^3.5.1"
+    },
+    "script": {
+        "build": "tsc",
+        "watch": "tsc --watch"
+    }
+}
