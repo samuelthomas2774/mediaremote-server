@@ -4,7 +4,6 @@ import * as util from 'util';
 import {Message as ProtoMessage} from 'protobufjs';
 import * as varint from 'varint';
 import snake = require('snake-case');
-// @ts-ignore
 import camelcase = require('camelcase');
 
 import {load} from '../protos';
